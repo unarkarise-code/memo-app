@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>ゆみとたろうのメモ帳</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ゆみとたろうのメモ帳</h1>
+
+        <div class="content-area">
+            <div class="editor-panel">
+                <textarea id="memo" placeholder="ここにメモを書いてください"></textarea>
+
+                <div class="buttons">
+                    <button id="saveBtn">保存</button>
+                    <button id="clearBtn">削除</button>
+                </div>
+            </div>
+
+            <div class="list-panel">
+                <h2>保存済みメモ一覧</h2>
+                <ul id="memoList"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
